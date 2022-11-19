@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#resultado{
+    border: 2px solid rgb(77, 5, 5);
+    padding: 20px;
+    width: 120px;
+   
+}
+
+.calculadora{
+    font-size: 15px;
+    padding: 30px 40px;
+    width: 40%;
+    margin: auto;    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        50deg, 
+        rgba(131, 10, 10, 0.87) 0%, 
+        rgba(0, 212, 255, 1) 100%
+        );;
+}
