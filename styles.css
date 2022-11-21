@@ -27,3 +27,11 @@ body{
         rgba(0, 212, 255, 1) 100%
         );;
 }
+
+#zero {
+    width: 150px;
+}
+
+#igual{
+    height: 300px;
+}
