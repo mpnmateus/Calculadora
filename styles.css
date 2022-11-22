@@ -3,29 +3,38 @@
 }
 
 
-#res{
+#resultado{
+    background: white;
+    color: black;
+    text-align: right;
     border: 2px solid rgb(77, 5, 5);
     padding: 20px;
-    width: 120px;
-   
+    width: 150px;
+    height: 40px;
+
 }
 
 .calculadora{
+    background: rgba(0, 0, 0, 0.852);
+    color: white;
     font-size: 15px;
-    padding: 30px 40px;
-    width: 40%;
-    margin: auto;    
+    padding: 30px 50px;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 100px; 
+    border-radius: 10px;  
 }
 
-body{
+.fundo{
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(
-        50deg, 
+        45deg, 
         rgba(131, 10, 10, 0.87) 0%, 
         rgba(0, 212, 255, 1) 100%
-        );;
+        );
+    height: 600px;
 }
 
 #zero {
@@ -34,4 +43,8 @@ body{
 
 #igual{
     height: 300px;
+}
+
+.btn{
+    cursor: pointer;
 }
