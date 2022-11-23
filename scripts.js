@@ -1,6 +1,11 @@
 
 
 function insert(num){
-    const res = window.document.getElementById('resultado');
-    res.innerHTML = num;
+    var numero = window.document.getElementById('resultado').innerHTML;
+    window.document.getElementById('resultado').innerHTML = numero + num
 }
+
+function clean(){
+    window.document.getElementById('resultado').innerHTML = "";
+}
+    
