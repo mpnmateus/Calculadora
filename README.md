@@ -12,3 +12,4 @@ A calculadora apresenta a possibilidade de digitar numerais que vão de 0 à 9 e
 - JavaScript
 
 ### Recursos adicionais
+A calculadora contempla a função de apagar um numeral ou todo o número contido na tela (digitado ou resultado de alguma operação).
