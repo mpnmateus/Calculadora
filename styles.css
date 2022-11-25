@@ -5,7 +5,7 @@
 }
 
 .fundo{
-    background-image: linear-gradient(45deg, black, crimson);
+    background-image: linear-gradient(45deg, rgb(76, 163, 36), rgb(246, 254, 8));
     height: 100vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +14,7 @@
 
 .calculadora{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(40, 169, 238, 0.5);
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
@@ -27,14 +27,14 @@
     height: 50px;
     margin: 3px;
     font-size: 25px;
-    background-color: rgb(31, 31, 31);
+    background-color: rgba(0, 50, 250, 0.594);
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 .btn:hover{
-    background-color: black;
+    background-color: rgba(241, 245, 27, 0.787);
 }
 
 #resultado{
@@ -43,7 +43,7 @@
     height: 30px;
     margin: 5px;
     font-size: 25px;
-    color: black;
+    color: rgb(40, 169, 238);
     text-align: right;
     padding: 5px;
 }
